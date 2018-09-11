@@ -38,7 +38,7 @@ public class Stepdefs {
 	@Then("^a issue is created in jira$")
 	public void a_issue_is_created_in_jira() throws Exception {
 		create_issue_res.then().assertThat(). // status 201 created
-		statusCode(201);
+		statusCode(200);
 	    
 	}
 	

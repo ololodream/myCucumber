@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="3" failures="0" name="dpcucumber.RunCucumberTest" time="0.048" errors="0" skipped="3">
+<testsuite tests="1" failures="0" name="dpcucumber.RunCucumberTest" time="34.812" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\bin"/>
@@ -65,21 +65,5 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="Create issue" name="Create a issue" time="0.016">
-    <skipped/>
-    <system-out>Feature: Create issue
- Create issue
-
-  Scenario: Create a issue              &amp;#27;[90m# dpcucumber/create_issue.feature:4&amp;#27;[0m
-    &amp;#27;[33mGiven &amp;#27;[0m&amp;#27;[33ma user want to create a issue&amp;#27;[0m &amp;#27;[90m# null&amp;#27;[0m
-    &amp;#27;[33mWhen &amp;#27;[0m&amp;#27;[33ma request is sent&amp;#27;[0m              &amp;#27;[90m# null&amp;#27;[0m
-    &amp;#27;[33mThen &amp;#27;[0m&amp;#27;[33ma issue is created in jira&amp;#27;[0m     &amp;#27;[90m# null&amp;#27;[0m
-</system-out>
-  </testcase>
-  <testcase classname="Create issue" name="Create a issue" time="0.016">
-    <skipped/>
-  </testcase>
-  <testcase classname="Create issue" name="Create a issue" time="0.016">
-    <skipped/>
-  </testcase>
+  <testcase classname="Create issue" name="Create a issue" time="34.812"/>
 </testsuite>

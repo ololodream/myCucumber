@@ -12,38 +12,29 @@
         "steps": [
           {
             "result": {
-              "duration": 111106051,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 5,
             "name": "a user want to create a issue",
-            "match": {
-              "location": "Stepdefs.a_user_want_to_create_a_issue()"
-            },
+            "match": {},
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 21734426256,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 6,
             "name": "a request is sent",
-            "match": {
-              "location": "Stepdefs.a_request_is_sent()"
-            },
+            "match": {},
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 1274666,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 7,
             "name": "a issue is created in jira",
-            "match": {
-              "location": "Stepdefs.a_issue_is_created_in_jira()"
-            },
+            "match": {},
             "keyword": "Then "
           }
         ]

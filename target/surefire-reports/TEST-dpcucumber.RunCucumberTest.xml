@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="dpcucumber.RunCucumberTest" time="21.873" errors="0" skipped="0">
+<testsuite tests="3" failures="0" name="dpcucumber.RunCucumberTest" time="0.048" errors="0" skipped="3">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\bin"/>
     <property name="java.vm.version" value="25.121-b13"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\Users\miya_\.jenkins\mycucumber"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\miya_\Documents\GitHub\myCucumber"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\Users\miya_\.jenkins\mycucumber"/>
+    <property name="user.dir" value="C:\Users\miya_\Documents\GitHub\myCucumber"/>
     <property name="java.runtime.version" value="1.8.0_121-b13"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\endorsed"/>
@@ -65,5 +65,21 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="Create issue" name="Create a issue" time="21.873"/>
+  <testcase classname="Create issue" name="Create a issue" time="0.016">
+    <skipped/>
+    <system-out>Feature: Create issue
+ Create issue
+
+  Scenario: Create a issue              &amp;#27;[90m# dpcucumber/create_issue.feature:4&amp;#27;[0m
+    &amp;#27;[33mGiven &amp;#27;[0m&amp;#27;[33ma user want to create a issue&amp;#27;[0m &amp;#27;[90m# null&amp;#27;[0m
+    &amp;#27;[33mWhen &amp;#27;[0m&amp;#27;[33ma request is sent&amp;#27;[0m              &amp;#27;[90m# null&amp;#27;[0m
+    &amp;#27;[33mThen &amp;#27;[0m&amp;#27;[33ma issue is created in jira&amp;#27;[0m     &amp;#27;[90m# null&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="Create issue" name="Create a issue" time="0.016">
+    <skipped/>
+  </testcase>
+  <testcase classname="Create issue" name="Create a issue" time="0.016">
+    <skipped/>
+  </testcase>
 </testsuite>

@@ -54,7 +54,7 @@ public class Stepdefs {
 				"\", \"password\": \""+
 				prop.getProperty("PASSWORD") +"\" }").
 		when().
-		post("/rest/auth/1/session").then().statusCode(201). //200 means success
+		post("/rest/auth/1/session").then().statusCode(200). //200 means success
 		extract().response();
 		
 		JsonPath js = ReusableMethods.rawToJson(res);

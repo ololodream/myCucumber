@@ -38,7 +38,7 @@ public class Stepdefs {
 	@Then("^a issue is created in jira$")
 	public void a_issue_is_created_in_jira() throws Exception {
 		create_issue_res.then().assertThat(). // status 201 created
-		statusCode(200);
+		statusCode(201);
 	    
 		
 	}
@@ -52,7 +52,7 @@ public class Stepdefs {
 				"\", \"password\": \""+
 				prop.getProperty("PASSWORD") +"\" }").
 		when().
-		post("/rest/auth/1/session").then().statusCode(200).
+		post("/rest/auth/1/session").then().statusCode(200). //200 means success
 		extract().response();
 		
 		JsonPath js = ReusableMethods.rawToJson(res);

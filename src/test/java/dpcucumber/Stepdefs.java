@@ -52,7 +52,7 @@ public class Stepdefs {
 				"\", \"password\": \""+
 				prop.getProperty("PASSWORD") +"\" }").
 		when().
-		post("/rest/auth/1/session").then().statusCode(200).
+		post("/rest/auth/1/session").then().statusCode(201).
 		extract().response();
 		
 		JsonPath js = ReusableMethods.rawToJson(res);

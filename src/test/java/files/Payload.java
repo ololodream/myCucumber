@@ -40,4 +40,14 @@ public class Payload {
 		"}";
 		return  body;
 	}
+	public static  String getCreateBooking()
+	{
+		String body = "{\n" +
+				"\t\"pricePerNight\":200,\n" +
+				"\t\"hotelName\": \"interconInternational\",\n" +
+				"\t\"nbOfNights\":3\n" +
+				"}";
+
+		return body;
+	}
 }

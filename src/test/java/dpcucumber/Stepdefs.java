@@ -41,7 +41,7 @@ public class Stepdefs {
 		statusCode(201);
 		System.out.println("!!!!!!!!!!!!!!!!!!!!!!!!!");
 	        System.out.println(create_issue_res.statusCode());
-	        assertEquals(create_issue_res.statusCode(),201);
+	        assertEquals(create_issue_res.statusCode(),200);
 		
 	}
 	
